@@ -12,3 +12,5 @@ can be added in the boot of Windows through GPO.
 AntiRansomwarefriendly.bat
 This script contains a friendly menu for the enable or disable the protection against the ransomware, 
 developed for use in home computer or end users.
+
+More info at: https://majaiti.es or https://syscloud.es
