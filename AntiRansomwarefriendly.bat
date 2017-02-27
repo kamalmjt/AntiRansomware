@@ -34,10 +34,10 @@ reg add "HKCU\Software\Microsoft\Windows Script Host\Settings" /v Enabled /t REG
 icacls "%userprofile%\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Archivos temporales de Internet\Content.IE5\" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Temp" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
-icacls "%userprofile%\Configuraci髇 local\Temp" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
+icacls "%userprofile%\Configuraci贸n local\Temp" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "c:\Documents and Settings\All Users" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Temp" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
-icacls "%userprofile%\Configuraci髇 local\Archivos temporales de Internet" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
+icacls "%userprofile%\Configuraci贸n local\Archivos temporales de Internet" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Microsoft\Windows\Temporary Internet Files" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Microsoft\Windows\INetCache" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%AppData%" /deny *S-1-1-0:(OI)(IO)(X) 2> nul > nul
@@ -61,10 +61,10 @@ reg add "HKCU\Software\Microsoft\Windows Script Host\Settings" /v Enabled /t REG
 icacls "%userprofile%\AppData\Local\Microsoft\Windows\Temporary Internet Files\Content.IE5\" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Archivos temporales de Internet\Content.IE5\" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Temp" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
-icacls "%userprofile%\Configuraci髇 local\Temp" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
+icacls "%userprofile%\Configuraci贸n local\Temp" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "c:\Documents and Settings\All Users" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Temp" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
-icacls "%userprofile%\Configuraci髇 local\Archivos temporales de Internet" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
+icacls "%userprofile%\Configuraci贸n local\Archivos temporales de Internet" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Microsoft\Windows\Temporary Internet Files" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%userprofile%\AppData\Local\Microsoft\Windows\INetCache" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
 icacls "%AppData%" /grant *S-1-1-0:(OI)(IO)(X) 2> nul > nul
